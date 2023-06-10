@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(172, 244, 255), rgb(243, 199, 255));
+}
+.card{
+    margin: 3vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    row-gap: 25px;
+}
+
+.front{
+    width:360px;
+    background-color: white;
+    padding:10px;
+    border-radius: 15px;
+}
+
+.back{
+    width: 360px;
+    background-color: white;
+    padding:10px;
+    border-radius: 15px;
+}
+.heading{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+h1{
+    font-size: 1.2em;
+    margin-top:-10px;
+    margin-bottom: 10px;
+}
+.logo{
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    padding: 3px;
+}
+
+h2{
+    font-size: 0.92em;
+    font-weight: 530;
+    margin-top: -25px;
+    text-align: center;
+}
+
+.picture{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+.myphoto{
+    width:200px;
+    height:250px;
+}
+
+.barcode{
+    height: 250px;
+    width: 80px;
+}
+
+.mydetails{
+    padding-left: 8px;
+    padding-right: 0;
+    margin-right: -10px;
+}
+
+hr{
+    background-color: black;
+    height: 2px;
+    border: 0;
+    width: 100%;
+    padding: 0;
+    margin-right: 0;
+    margin-left: -10px;
+}
+
+h3{
+    text-align: right;
+    margin-right: 40px;
+    font-size: 1.6em;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.details{
+    padding-left: 20px;
+    padding-right: 0;
+    margin-right: -10px;
+    font-size: 1.2em;
+}
+
+.addresss p{
+    margin-top: -16px;
+}
+
+.qr{
+    width: 170px;
+    height: 170px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
